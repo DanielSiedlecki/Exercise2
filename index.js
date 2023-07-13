@@ -120,7 +120,7 @@ const deleteUser = async (userId) => {
     return deleteResult;
   } catch (error) {
     console.log(error);
-    throw e;
+    throw error;
   }
 };
 
